@@ -19,10 +19,12 @@ public class DataType {
 	 *  -- FCB2  FCB version 2
 	 *  -- RICS  company code + ...
 	 **/
+	@FieldOrder(order = 0)
 	@RestrictedString(CharacterRestriction.IA5String)
 	public String format;
 	
 	/** The data. */
+	@FieldOrder(order = 1)
 	public OctetString data;
 
 	/**
