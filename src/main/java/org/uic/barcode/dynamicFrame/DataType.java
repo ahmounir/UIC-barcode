@@ -5,6 +5,7 @@ import org.uic.barcode.asn1.datatypes.RestrictedString;
 import org.uic.barcode.asn1.datatypes.Sequence;
 import org.uic.barcode.asn1.datatypesimpl.OctetString;
 import org.uic.barcode.asn1.uper.UperEncoder;
+import org.uic.barcode.asn1.datatypes.FieldOrder;
 
 /**
  * The Class DataType.
